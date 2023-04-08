@@ -19,7 +19,10 @@ const AddUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:9005/adduser", formData);
+      await axios.post(
+        "https://assignment-nodejs.onrender.com/adduser",
+        formData
+      );
       history("/table");
     } catch (error) {
       console.error(error);

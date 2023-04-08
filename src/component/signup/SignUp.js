@@ -24,11 +24,14 @@ function SignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:9005/signup", {
-        name,
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://assignment-nodejs.onrender.com/signup",
+        {
+          name,
+          email,
+          password,
+        }
+      );
       history("/login");
       // console.log(response.data);
       // Do something with the response, such as displaying a success message to the user

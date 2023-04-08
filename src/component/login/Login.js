@@ -19,10 +19,13 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:9005/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://assignment-nodejs.onrender.com/login",
+        {
+          email,
+          password,
+        }
+      );
 
       history("/");
     } catch (error) {

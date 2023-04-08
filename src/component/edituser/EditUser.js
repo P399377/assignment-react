@@ -20,7 +20,7 @@ const EditUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:9005/updateuser/${id}`, formData);
+      await axios.put(`https://assignment-nodejs.onrender.com/${id}`, formData);
       history("/table");
     } catch (error) {
       console.error(error);
@@ -35,7 +35,9 @@ const EditUser = () => {
   }, []);
 
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:9005/getuser/${id}`);
+    const result = await axios.get(
+      `https://assignment-nodejs.onrender.com/getuser/${id}`
+    );
     console.log(result.data);
     setFormData(result.data);
   };

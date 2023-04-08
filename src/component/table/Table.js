@@ -13,11 +13,13 @@ const Table = () => {
   }, []);
 
   const loadUser = async (id) => {
-    const result = await axios.get("http://localhost:9005/getuser");
+    const result = await axios.get(
+      "https://assignment-nodejs.onrender.com/getuser"
+    );
     setData(result.data);
   };
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:9005/${id}`);
+    await axios.delete(`https://assignment-nodejs.onrender.com/${id}`);
     loadUser();
   };
 
