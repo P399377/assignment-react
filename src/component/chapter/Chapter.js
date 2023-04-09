@@ -7,36 +7,35 @@ const Chapter = () => {
       <p className="title">Chapter 1</p>
 
       <p className="paragraph">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum totam
-        odit iste, ipsa laboriosam qui aliquid rerum molestias laborum quos
-        deserunt, repudiandae optio perspiciatis molestiae expedita itaque
-        accusantium laudantium. Nemo temporibus dicta nam aspernatur quia
-        commodi nesciunt maxime atque voluptatem dignissimos doloremque,
-        veritatis corporis, debitis sed fuga rem tempore sunt sequi perspiciatis
-        ab aut nulla minima assumenda! Delectus commodi quasi expedita!
-        Explicabo fugiat doloremque quaerat natus, facilis optio quam ipsam
-        odit? Fugiat nihil neque quisquam earum harum voluptates rerum dolor?
-        Iste, quod quis consectetur adipisci aut natus earum id modi ab dicta
-        fugit illum atque hic nisi! Ab accusantium, porro numquam, deserunt
-        voluptatibus laudantium fuga facere eum cumque non, distinctio quod
-        vitae sapiente! Eius exercitationem, expedita labore, esse consectetur
-        beatae quaerat dolor dicta quod cumque temporibus voluptate nemo
-        necessitatibus deleniti eum, itaque tempora dolore doloribus a fugit
-        quis laborum dolorem nesciunt culpa? Facere architecto vero cupiditate?
-        Cumque animi expedita eaque nam sequi. Voluptatem voluptate maiores in,
-        exercitationem itaque aspernatur eos neque qui consectetur quibusdam
-        beatae voluptatum impedit debitis officia, quisquam doloribus
-        consequatur doloremque repellendus facere aperiam? Hic, ab?
-        Reprehenderit voluptas temporibus saepe molestias magni debitis nemo
-        maxime esse beatae distinctio, quisquam, veniam accusamus mollitia,
-        obcaecati quos. Suscipit reprehenderit molestias ab. Doloremque
-        molestiae necessitatibus, veniam harum nihil provident aperiam soluta
-        quia vero enim? Recusandae ad impedit aliquid nemo fuga, vero facere,
-        voluptatum delectus soluta, aperiam velit voluptas. Eum facere dolor
-        corrupti. Alias quisquam molestiae, incidunt ratione praesentium
-        deserunt inventore blanditiis amet corrupti quaerat iure, libero
-        possimus provident consequuntur. Fugiat libero, blanditiis unde non quo
-        ex praesentium, ipsum qui esse quibusdam eum! Perspiciatis ullam
+        Pankaj Patidar sit, amet consectetur adipisicing elit. Illum totam odit
+        iste, ipsa laboriosam qui aliquid rerum molestias laborum quos deserunt,
+        repudiandae optio perspiciatis molestiae expedita itaque accusantium
+        laudantium. Nemo temporibus dicta nam aspernatur quia commodi nesciunt
+        maxime atque voluptatem dignissimos doloremque, veritatis corporis,
+        debitis sed fuga rem tempore sunt sequi perspiciatis ab aut nulla minima
+        assumenda! Delectus commodi quasi expedita! Explicabo fugiat doloremque
+        quaerat natus, facilis optio quam ipsam odit? Fugiat nihil neque
+        quisquam earum harum voluptates rerum dolor? Iste, quod quis consectetur
+        adipisci aut natus earum id modi ab dicta fugit illum atque hic nisi! Ab
+        accusantium, porro numquam, deserunt voluptatibus laudantium fuga facere
+        eum cumque non, distinctio quod vitae sapiente! Eius exercitationem,
+        expedita labore, esse consectetur beatae quaerat dolor dicta quod cumque
+        temporibus voluptate nemo necessitatibus deleniti eum, itaque tempora
+        dolore doloribus a fugit quis laborum dolorem nesciunt culpa? Facere
+        architecto vero cupiditate? Cumque animi expedita eaque nam sequi.
+        Voluptatem voluptate maiores in, exercitationem itaque aspernatur eos
+        neque qui consectetur quibusdam beatae voluptatum impedit debitis
+        officia, quisquam doloribus consequatur doloremque repellendus facere
+        aperiam? Hic, ab? Reprehenderit voluptas temporibus saepe molestias
+        magni debitis nemo maxime esse beatae distinctio, quisquam, veniam
+        accusamus mollitia, obcaecati quos. Suscipit reprehenderit molestias ab.
+        Doloremque molestiae necessitatibus, veniam harum nihil provident
+        aperiam soluta quia vero enim? Recusandae ad impedit aliquid nemo fuga,
+        vero facere, voluptatum delectus soluta, aperiam velit voluptas. Eum
+        facere dolor corrupti. Alias quisquam molestiae, incidunt ratione
+        praesentium deserunt inventore blanditiis amet corrupti quaerat iure,
+        libero possimus provident consequuntur. Fugiat libero, blanditiis unde
+        non quo ex praesentium, ipsum qui esse quibusdam eum! Perspiciatis ullam
         deserunt velit eaque voluptas qui ipsam iusto, molestiae rerum doloribus
         amet veritatis. Perferendis non exercitationem pariatur odio quas,
         delectus voluptas dolorem consequuntur officiis praesentium fuga
