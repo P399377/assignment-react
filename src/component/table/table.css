@@ -1,82 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .table-container {
   width: 100%;
-  margin-top: 10px;
-}
-.table_header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: rgb(240, 240, 240);
-}
-.table_header p {
-  color: #000000;
+  justify-content: center;
+
+  font-family: "Roboto", sans-serif;
+  background-color: #adacac;
+  margin-top: 30px;
 }
 
-.add-new {
-  padding: 10px 20px;
-  color: #ffffff;
-  background-color: blue;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.table_section {
-  height: 500px;
-  overflow: auto;
-  border-collapse: collapse;
-}
 .table-wrapper {
   width: 100%;
-  table-layout: fixed;
-  min-width: 900px;
   border-collapse: collapse;
 }
 
-thead th {
+.header_fixed {
+  max-height: 100vh;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #dddddd;
+}
+
+.header_fixed thead th {
   position: sticky;
   top: 0;
-  background-color: #f6f9fc;
-  color: #8493a5;
+  background-color: black;
+  color: #e6e7e8;
   font-size: 15px;
 }
+
 th,
 td {
   border-bottom: 1px solid #dddddd;
   padding: 10px 20px;
-  word-break: break-all;
-  text-align: center;
+  font-size: 14px;
+}
+td {
+  padding: 0px 80px;
+}
+.btn-danger {
+  margin-left: 20px;
+}
+.add-user {
+  margin: 20px 10px 0px 0px;
+  justify-content: end;
+  display: flex;
+  align-items: end;
+}
+
+/* td img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 5px solid #e6e7e8;
+} */
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #edeef1;
 }
 
 tr:hover td {
-  color: #0298cf;
+  color: #44b478;
   cursor: pointer;
-  background-color: #f6f9fc;
-}
-
-::-webkit-scrollbar {
-  height: 5px;
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
 }
 
 .btn {
-  text-decoration: none;
-  border-radius: 5px;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: #e6e7e8;
 }
-.btn-primary {
-  background-color: blue;
-  color: white;
-  margin-right: 10px;
+
+::-webkit-scrollbar {
+  width: 6px;
 }
-.btn-danger {
-  background-color: red;
-  color: white;
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }

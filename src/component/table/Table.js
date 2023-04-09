@@ -25,16 +25,13 @@ const Table = () => {
 
   return (
     <>
+      <div className="add-user">
+        <Link className="btn btn-primary" to={"/adduser"}>
+          Add User
+        </Link>
+      </div>
       <div className="table-container">
-        <div className="table_header">
-          <p>Table Data</p>
-          <div>
-            <Link className="add-new btn" to="/adduser">
-              AddUser
-            </Link>
-          </div>
-        </div>
-        <div className="table-section">
+        <div className="header_fixed">
           <table className="table-wrapper">
             <thead>
               <tr>
