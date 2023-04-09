@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
   text-align: center;
   margin-top: 30px;
 }
@@ -35,7 +35,8 @@ label {
   padding: 7px 15px;
 }
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="text"]:focus {
   flex-grow: 1;
   padding: 10px;
   border-radius: 5px;
@@ -45,7 +46,8 @@ input[type="password"] {
   box-sizing: border-box;
 }
 input[type="email"]:focus,
-input[type="password"]:focus {
+input[type="password"]:focus,
+input[type="text"]:focus {
   outline: none;
   box-shadow: none;
   border: none;
@@ -64,4 +66,4 @@ button[type="submit"] {
 }
 button[type="submit"]:hover {
   background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
-}
+} */

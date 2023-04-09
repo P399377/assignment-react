@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./edituser.css";
+// import "./edituser.css";
 const EditUser = () => {
   let history = useNavigate();
   const { id } = useParams();

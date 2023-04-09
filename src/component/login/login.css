@@ -1,4 +1,4 @@
-form {
+/* form {
   width: 400px;
   display: flex;
   justify-content: center;
@@ -59,4 +59,4 @@ button[type="submit"] {
 }
 button[type="submit"]:hover {
   background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
-}
+} */

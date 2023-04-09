@@ -72,7 +72,7 @@ const AddUser = () => {
         <div className="form-group">
           <label>Email </label>
           <input
-            type="text"
+            type="email"
             className="user-form-input"
             placeholder="Enter Your Email"
             name="email"
