@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-// import "./edituser.css";
+import "./edituser.css";
 const EditUser = () => {
   let history = useNavigate();
   const { id } = useParams();
@@ -20,7 +20,10 @@ const EditUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`https://assignment-nodejs.onrender.com/${id}`, formData);
+      await axios.put(
+        `https://assignment-nodejs.onrender.com/updateuser/${id}`,
+        formData
+      );
       history("/table");
     } catch (error) {
       console.error(error);
