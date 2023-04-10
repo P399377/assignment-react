@@ -5,11 +5,11 @@ import Feature from "../component/feature/Feature";
 
 const Blog = () => {
   return (
-    <>
+    <div style={{ backgroundImage: "none" }}>
       <HeroSection />
       <Chapter />
       <Feature />
-    </>
+    </div>
   );
 };
 

@@ -26,9 +26,11 @@ function Login() {
           password,
         }
       );
+      alert("successful");
 
       history("/");
     } catch (error) {
+      alert("invalid email or password");
       console.error(error);
     }
   };

@@ -42,40 +42,42 @@ function SignUp() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="form-group">
-        <label>Name </label>
-        <input
-          type="text"
-          value={name}
-          onChange={handleNameChange}
-          required
-          placeholder="Enter your name"
-        />
-      </div>
-      <div className="form-group">
-        <label>Email </label>
-        <input
-          type="email"
-          value={email}
-          onChange={handleEmailChange}
-          required
-          placeholder="Enter your email"
-        />
-      </div>
-      <div className="form-group">
-        <label>Password </label>
-        <input
-          type="password"
-          value={password}
-          onChange={handlePasswordChange}
-          required
-          placeholder="Enter your password"
-        />
-      </div>
+    <>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label>Name </label>
+          <input
+            type="text"
+            value={name}
+            onChange={handleNameChange}
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+        <div className="form-group">
+          <label>Email </label>
+          <input
+            type="email"
+            value={email}
+            onChange={handleEmailChange}
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <div className="form-group">
+          <label>Password </label>
+          <input
+            type="password"
+            value={password}
+            onChange={handlePasswordChange}
+            required
+            placeholder="Enter your password"
+          />
+        </div>
 
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
+    </>
   );
 }
 

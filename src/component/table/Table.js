@@ -26,7 +26,7 @@ const Table = () => {
   return (
     <>
       <div className="add-user">
-        <Link className="btn btn-primary" to={"/adduser"}>
+        <Link className="btn" to={"/adduser"}>
           Add User
         </Link>
       </div>
